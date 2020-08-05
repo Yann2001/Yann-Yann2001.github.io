@@ -1,0 +1,49 @@
+body {
+  text-align: center;
+  background-image: url("wallpaper.jpg");
+  background-repeat: no-repeat; 
+  background-size: cover;
+  height: 350px;
+  color: white;
+  font-family: helvetica;  
+  }
+h1{
+  text-align: center;
+  text-decoration: underline;
+  color: white;
+  text-shadow: none;
+  text-decoration-color: red;
+}
+.nyc{
+  vertical-align: middle;
+  width: 176px;
+  height: 178px;
+  border-radius: 50%;
+  border: 08px solid white;
+  padding: 0px;
+  border-image: url(border.png) 50 round;
+}
+p {
+  font-size: 32px;
+  color: black;
+  text-shadow:  0 0 1px black;
+}
+p1{
+  font-size: 24px;
+  color: black;
+  text-shadow: none;
+}
+input {
+  border-color: black;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 25px;
+}
+input[type="submit"] {
+  background: red;
+  color: white;
+  border-radius: 25px;
+}
+2px 2px 16px red
+2px 2px 20px purple
+backdrop-filter: blur(10px);
